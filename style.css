@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0 20px;
+	padding-top: 200px;
+}
+
+#text {
+	padding-left: 10px;
+}
+.textEdit:focus {
+	-moz-box-shadow: inset 0 -2px 2px -2px #000000;
+	-webkit-box-shadow: inset 0 -2px 2px -2px #000000;
+	box-shadow: inset 0 -2px 2px -2px #000000;
+}
+.textEdit {
+	width: inherit;
+	padding: 0 10px;
+	border: 0;
+	border-bottom: 1px solid black;
+	outline: 0;
+}
+#container {
+	width: 700px;
+	margin: 0 auto;
+}
+#container-list {
+	width: inherit;
+	margin-top: 20px;
+}
+
+.list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: inherit;
+	height: 40px;
+	gap: 20px;
+}
+
+.remove {
+	cursor: pointer;
+	border: 0;
+	background-color: transparent;
+	align-self: center;
+}
