@@ -12,6 +12,7 @@ const add = () => {
 
 		// Create input .textEdit
 		const createText = document.createElement("input");
+		createText.type = "text";
 		createText.value = textInput.value;
 		createText.className = "textEdit";
 
